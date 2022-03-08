@@ -1,0 +1,57 @@
+{
+"users": [
+    { "id": 1, "name": "Jackson Petalls", "email": "jp@msn.com", "role": "owner" },
+    { "id": 2, "name": "Wynona Ryder", "email": "ryder@xfinity.com", "role": "manager" },
+    { "id": 3, "name": "Tyler Barrett", "email": "tyler@barrett.net", "role": "manager" },
+    { "id": 4, "name": "Parker Lewis", "email": "ghwf69@protonmail.com", "role": "manager" },
+    { "id": 6, "name": "Peter Parker", "email": "therealspiderman@foresthills.com", "role": "tenant" },
+    { "id": 7, "name": "Mallory Stark", "email": "mallory.stark@west.com", "role": "tenant" },
+    { "id": 8, "name": "Dejohn Kulhman", "email": "lavaman@gmail.com", "role": "tenant" },
+    { "id": 9, "name": "Bilzen Idell", "email": "bi212@protonmail.com", "role": "tenant" },
+    { "id": 10, "name": "Jeff Stokes", "email": "jeffstokes@tacos.net", "role": "tenant" },
+    { "id": 11, "name": "Ed Kearney", "email": "ek1936@aarp.com", "role": "tenant" },
+    { "id": 12, "name": "Kristina Nixon", "email": "knixon@salino.com", "role": "tenant" },
+    { "id": 13, "name": "Juan Silva", "email": "jsalva45@gmail.com", "role": "tenant" }, 
+    { "id": 14, "name": "Alex Keaton", "email": "apk@ucdavis.edu", "role" : "tenant" }, 
+    { "id": 15, "name": "Grace Hopper", "email": "grace@usnavy.mil", "role" : "tenant" }
+],
+
+
+"properties": [
+    { "id": 1, "address": "1600 Pennsylvania Ave", "tenantId": 15, "mgrId": 2, "rentAmt": 1400, "occupied": true },
+    { "id": 2, "address": "666 Mockingbird Ln", "tenantId": 11, "mgrId": 2, "rentAmt": 500, "occupied": true },
+    { "id": 3, "address": "31 Spooner St", "tenantId": 13, "mgrId": 2, "rentAmt": 2200, "occupied": true },
+    { "id": 4, "address": "21 Ingram St", "tenantId": 6, "mgrId": 3, "rentAmt": 1300, "occupied": true },
+    { "id": 5, "address": "1162 Virgie Loaf Ct", "tenantId": 10, "mgrId": 4, "rentAmt": 1850, "occupied": true }, 
+    { "id": 6, "address": "1026 Libby St", "tenantId": 7, "mgrId": 2, "rentAmt": 1500, "occupied": true }, 
+    { "id": 7, "address": "8731 Monica Ave", "tenantId": 8, "mgrId": 4, "rentAmt": 1575, "occupied": true },
+    { "id": 8, "address": "1437 Fesslers Ln", "tenantId": 12, "mgrId": 3, "rentAmt": 2400, "occupied": true }, 
+    { "id": 9, "address": "3880 Bryan St", "tenantId": 14, "mgrId": 3, "rentAmt": 1850, "occupied": true }, 
+    { "id": 10, "address": "156 Clive Singer Rd", "tenantId": 9, "mgrId": 4, "rentAmt": 2100, "occupied": true },
+    { "id": 11, "address": "3391 Chimpmunk Way", "tenantId": 5, "mgrId": 4, "rentAmt": 1900, "occupied": true },
+    { "id": 11, "address": "5038 Rollins Rd", "tenantId": 0, "mgrId": 3, "rentAmt": 1850, "occupied": false },
+    { "id": 11, "address": "5289 Cunningham Ct", "tenantId": 0, "mgrId": 2, "rentAmt": 1350, "occupied": false },
+    { "id": 11, "address": "67 Christie Way", "tenantId": 0, "mgrId": 3, "rentAmt": 1975, "occupied": false },
+    { "id": 12, "address": "1321 Oakway Ln", "tenantId": 0, "mgrId": 4, "rentAmt": 1425, "occupied": false }
+],
+    
+"maintrequests": [
+    { "id": 1, "title": "Screw threads stripped", "description": "Threads on third screw in first hinge of bathroom door stripped off", "propertyId": 1, "dateOpened": "2022-01-03", "dateClosed": "2022-01-07", "openStatus": false, "repairNotes": "Removed and replaced screw threads" },
+    { "id": 2, "title": "Kitchen faucet leaks when using hot water", "description": "When I use the hot water in the kitchen, the faucet leaks.", "propertyId": 3, "dateOpened": "2022-01-11", "dateClosed": "2022-01-20", "openStatus": false, "repairNotes": "Advised tenant not to use the hot water in the kitchen" },
+    { "id": 3, "title": "Hole in wall", "description": "I got angry and punched a hole in the sheetrock", "propertyId": 2, "dateOpened": "2022-02-01","dateClosed": "2022-02-03", "openStatus": false, "repairNotes": "Repaired hole with 2x3 foot sheetrock, mudded/taped/sanded/painted. Billed tenant 75 dollars." },
+    { "id": 4, "title": "Light switch broken", "description": "Ceiling fan light switch in bedroom is not working. it is stuck in the on position.", "propertyId": 1, "dateOpened": "2022-02-23", "dateClosed": "", "openStatus": true, "repairNotes": "" },
+    { "id": 5, "title": "Cracked bathroom window", "description": "Bathroom window is cracked on the bottom half.", "propertyId": 8, "dateOpened": "2022-03-07", "dateClosed": "", "openStatus": true, "repairNotes": "Custom-size window...glass on order" }
+],
+    
+"notes": [
+    { "id": 1, "mgrId": 2, "propertyId": 1, "note": "Noise complaint received by police", "date": "2022-01-04" },
+    { "id": 2, "mgrId": 3, "propertyId": 1, "note": "Neighbors said it smelled like tenant was smoking the reefer", "date": "2022-01-24" },
+    { "id": 3, "mgrId": 2, "propertyId": 4, "note": "Spider webs EVERYWHERE...unsanitary conditions", "date": "2021-12-14" },
+    { "id": 4, "mgrId": 4, "propertyId": 2, "note": "Dog crap all over the yard", "date": "2022-03-05" },
+    { "id": 5, "mgrId": 3, "propertyId": 9, "note": "Front windows covered with aluminum foil; against lease", "date": "2022-03-10" },
+    { "id": 6, "mgrId": 4, "propertyId": 8, "note": "Front lawn TP'd, windows soaped", "date": "2021-10-16" }, 
+    { "id": 7, "mgrId": 3, "propertyId": 10, "note": "Wind blew some shingles off", "date": "2022-02-15" }, 
+    { "id": 8, "mgrId": 2, "propertyId": 12, "note": "Possible rat infestation in the crawl space", "date": "2022-01-11" }, 
+    { "id": 9, "mgrId": 4, "propertyId": 2, "note": "Three dead cats on the south lawn", "date": "2022-01-19" }
+]
+}
