@@ -10,9 +10,7 @@
       "id": 2,
       "name": "Wynona Ryder",
       "email": "ryder@xfinity.com",
-      "role": "manager",
-      "tenantId": 0,
-      "mgrId": 2
+      "role": "manager"
     },
     {
       "id": 3,
@@ -85,13 +83,37 @@
       "name": "Grace Hopper",
       "email": "grace@usnavy.mil",
       "role": "tenant"
+    },
+    {
+      "id": 18,
+      "name": "DeleteMe",
+      "email": "ce@y.mil",
+      "role": "delete"
+    },
+    {
+      "id": 19,
+      "name": "DeleteOkay",
+      "email": "g@uvy.ml",
+      "role": "delete"
+    },
+    {
+      "id": 20,
+      "name": "OkayToDeleteMe",
+      "email": "r@usy.il",
+      "role": "delete"
+    },
+    {
+      "name": "Adam Adamsome",
+      "email": "aa@a.co",
+      "role": "Tenant",
+      "id": 21
     }
   ],
   "properties": [
     {
       "id": 1,
       "address": "1600 Pennsylvania Ave",
-      "tenantId": 15,
+      "userId": 15,
       "mgrId": 2,
       "rentAmt": 1400,
       "occupied": "true"
@@ -99,7 +121,7 @@
     {
       "id": 2,
       "address": "666 Mockingbird Ln",
-      "tenantId": 11,
+      "userId": 11,
       "mgrId": 2,
       "rentAmt": 500,
       "occupied": "true"
@@ -107,7 +129,7 @@
     {
       "id": 3,
       "address": "31 Spooner St",
-      "tenantId": 13,
+      "userId": 13,
       "mgrId": 2,
       "rentAmt": 2200,
       "occupied": "true"
@@ -115,7 +137,7 @@
     {
       "id": 4,
       "address": "21 Ingram St",
-      "tenantId": 6,
+      "userId": 6,
       "mgrId": 3,
       "rentAmt": 1300,
       "occupied": "true"
@@ -123,7 +145,7 @@
     {
       "id": 5,
       "address": "1162 Virgie Loaf Ct",
-      "tenantId": 10,
+      "userId": 10,
       "mgrId": 4,
       "rentAmt": 1850,
       "occupied": "true"
@@ -131,7 +153,7 @@
     {
       "id": 6,
       "address": "1026 Libby St",
-      "tenantId": 7,
+      "userId": 7,
       "mgrId": 2,
       "rentAmt": 1500,
       "occupied": "true"
@@ -139,7 +161,7 @@
     {
       "id": 7,
       "address": "8731 Monica Ave",
-      "tenantId": 8,
+      "userId": 8,
       "mgrId": 4,
       "rentAmt": 1575,
       "occupied": "true"
@@ -147,7 +169,7 @@
     {
       "id": 8,
       "address": "1437 Fesslers Ln",
-      "tenantId": 12,
+      "userId": 12,
       "mgrId": 3,
       "rentAmt": 2400,
       "occupied": "true"
@@ -155,7 +177,7 @@
     {
       "id": 9,
       "address": "3880 Bryan St",
-      "tenantId": 14,
+      "userId": 14,
       "mgrId": 3,
       "rentAmt": 1850,
       "occupied": "true"
@@ -163,7 +185,7 @@
     {
       "id": 10,
       "address": "156 Clive Singer Rd",
-      "tenantId": 9,
+      "userId": 9,
       "mgrId": 4,
       "rentAmt": 2100,
       "occupied": "true"
@@ -171,7 +193,7 @@
     {
       "id": 11,
       "address": "3391 Chimpmunk Way",
-      "tenantId": 5,
+      "userId": 5,
       "mgrId": 4,
       "rentAmt": 1900,
       "occupied": "true"
@@ -179,7 +201,7 @@
     {
       "id": 12,
       "address": "5038 Rollins Rd",
-      "tenantId": 0,
+      "userId": 0,
       "mgrId": 3,
       "rentAmt": 1850,
       "occupied": "false"
@@ -187,7 +209,7 @@
     {
       "id": 13,
       "address": "5289 Cunningham Ct",
-      "tenantId": 0,
+      "userId": 0,
       "mgrId": 2,
       "rentAmt": 1350,
       "occupied": "false"
@@ -195,7 +217,7 @@
     {
       "id": 14,
       "address": "67 Christie Way",
-      "tenantId": 0,
+      "userId": 0,
       "mgrId": 3,
       "rentAmt": 1975,
       "occupied": "false"
@@ -203,7 +225,7 @@
     {
       "id": 15,
       "address": "1321 Oakway Ln",
-      "tenantId": 0,
+      "userId": 0,
       "mgrId": 4,
       "rentAmt": 1425,
       "occupied": "false"
