@@ -95,6 +95,18 @@
       "email": "aa@a.co",
       "role": "Tenant",
       "id": 21
+    },
+    {
+      "name": "William Howard Taft",
+      "email": "wht@presidents.net",
+      "role": "tenant",
+      "id": 23
+    },
+    {
+      "name": "James K. Polk",
+      "email": "polkj@presidents.net",
+      "role": "tenant",
+      "id": 24
     }
   ],
   "properties": [
@@ -104,15 +116,17 @@
       "userId": 15,
       "mgrId": 2,
       "rentAmt": 1400,
-      "occupied": "true"
+      "occupied": "true",
+      "imageURL": "https://images.pexels.com/photos/8755443/pexels-photo-8755443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": 2,
-      "address": "666 Mockingbird Ln",
+      "address": "83 Mockingbird Ln",
       "userId": 11,
       "mgrId": 2,
       "rentAmt": 500,
-      "occupied": "true"
+      "occupied": "true",
+      "imageURL": "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": 3,
@@ -120,7 +134,8 @@
       "userId": 13,
       "mgrId": 2,
       "rentAmt": 2200,
-      "occupied": "true"
+      "occupied": "true",
+      "imageURL": "https://images.pexels.com/photos/3551230/pexels-photo-3551230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": 4,
@@ -128,7 +143,8 @@
       "userId": 6,
       "mgrId": 3,
       "rentAmt": 1300,
-      "occupied": "true"
+      "occupied": "true",
+      "imageURL": "https://images.pexels.com/photos/10914648/pexels-photo-10914648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": 5,
@@ -136,7 +152,8 @@
       "userId": 10,
       "mgrId": 4,
       "rentAmt": 1850,
-      "occupied": "true"
+      "occupied": "true",
+      "imageURL": "https://images.pexels.com/photos/8443480/pexels-photo-8443480.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": 6,
@@ -144,7 +161,8 @@
       "userId": 7,
       "mgrId": 2,
       "rentAmt": 1500,
-      "occupied": "true"
+      "occupied": "true",
+      "imageURL": "https://images.pexels.com/photos/4526153/pexels-photo-4526153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": 7,
@@ -152,31 +170,35 @@
       "userId": 8,
       "mgrId": 4,
       "rentAmt": 1575,
-      "occupied": "true"
+      "occupied": "true",
+      "imageURL": "https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": 8,
-      "address": "1437 Fesslers Ln",
+      "address": "1156 Fesslers Ln",
       "userId": 12,
       "mgrId": 3,
       "rentAmt": 2400,
-      "occupied": "true"
+      "occupied": "true",
+      "imageURL": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": 9,
-      "address": "3880 Bryan St",
+      "address": "156 Clive Singer Rd",
       "userId": 14,
       "mgrId": 3,
       "rentAmt": 1850,
-      "occupied": "true"
+      "occupied": "true",
+      "imageURL": "https://images.pexels.com/photos/428427/pexels-photo-428427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": 10,
-      "address": "156 Clive Singer Rd",
+      "address": "3880 Bryan St",
       "userId": 9,
       "mgrId": 4,
       "rentAmt": 2100,
-      "occupied": "true"
+      "occupied": "true",
+      "imageURL": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "userId": 18,
@@ -184,7 +206,8 @@
       "mgrId": 1,
       "rentAmt": "450",
       "occupied": true,
-      "id": 18
+      "id": 11,
+      "imageURL": "https://images.pexels.com/photos/4492596/pexels-photo-4492596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "userId": 21,
@@ -192,7 +215,8 @@
       "mgrId": 2,
       "rentAmt": "700",
       "occupied": false,
-      "id": 19
+      "id": 12,
+      "imageURL": "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
   ],
   "maintrequests": [
@@ -245,6 +269,16 @@
       "dateClosed": "",
       "openStatus": "true",
       "repairNotes": "Custom-size window...glass on order"
+    },
+    {
+      "title": "Testy Test Test",
+      "description": "This is a test.",
+      "propertyId": "1",
+      "dateOpened": "2022-03-12",
+      "dateClosed": "",
+      "openStatus": "true",
+      "repairNotes": "",
+      "id": 6
     }
   ],
   "notes": [
