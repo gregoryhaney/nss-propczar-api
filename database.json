@@ -91,18 +91,6 @@
       "role": "delete"
     },
     {
-      "id": 19,
-      "name": "DeleteOkay",
-      "email": "g@uvy.ml",
-      "role": "delete"
-    },
-    {
-      "id": 20,
-      "name": "OkayToDeleteMe",
-      "email": "r@usy.il",
-      "role": "delete"
-    },
-    {
       "name": "Adam Adamsome",
       "email": "aa@a.co",
       "role": "Tenant",
@@ -191,44 +179,20 @@
       "occupied": "true"
     },
     {
-      "id": 11,
-      "address": "3391 Chimpmunk Way",
-      "userId": 5,
-      "mgrId": 4,
-      "rentAmt": 1900,
-      "occupied": "true"
+      "userId": 18,
+      "address": "45 Kent St",
+      "mgrId": 1,
+      "rentAmt": "450",
+      "occupied": true,
+      "id": 18
     },
     {
-      "id": 12,
-      "address": "5038 Rollins Rd",
-      "userId": 0,
-      "mgrId": 3,
-      "rentAmt": 1850,
-      "occupied": "false"
-    },
-    {
-      "id": 13,
-      "address": "5289 Cunningham Ct",
-      "userId": 0,
+      "userId": 21,
+      "address": "909 Kenner Blvd",
       "mgrId": 2,
-      "rentAmt": 1350,
-      "occupied": "false"
-    },
-    {
-      "id": 14,
-      "address": "67 Christie Way",
-      "userId": 0,
-      "mgrId": 3,
-      "rentAmt": 1975,
-      "occupied": "false"
-    },
-    {
-      "id": 15,
-      "address": "1321 Oakway Ln",
-      "userId": 0,
-      "mgrId": 4,
-      "rentAmt": 1425,
-      "occupied": "false"
+      "rentAmt": "700",
+      "occupied": false,
+      "id": 19
     }
   ],
   "maintrequests": [
@@ -244,13 +208,13 @@
     },
     {
       "id": 2,
-      "title": "Kitchen faucet leaks when using hot water",
-      "description": "When I use the hot water in the kitchen, the faucet leaks.",
+      "title": "Kitchen hot water dripping faucet",
+      "description": "Water drips constantly in kitchen sink",
       "propertyId": 3,
-      "dateOpened": "2022-01-11",
-      "dateClosed": "2022-01-20",
+      "dateOpened": "2022-03-07",
+      "dateClosed": "2022-03-08",
       "openStatus": "false",
-      "repairNotes": "Advised tenant not to use the hot water in the kitchen"
+      "repairNotes": "Advised tenant to ONLY use cold water in the kitchen"
     },
     {
       "id": 3,
@@ -332,13 +296,6 @@
       "propertyId": 10,
       "note": "Wind blew some shingles off",
       "date": "2022-02-15"
-    },
-    {
-      "id": 8,
-      "mgrId": 2,
-      "propertyId": 12,
-      "note": "Possible rat infestation in the crawl space",
-      "date": "2022-01-11"
     },
     {
       "id": 9,
