@@ -104,7 +104,7 @@
     },
     {
       "name": "James K. Polk",
-      "email": "polkj@presidents.net",
+      "email": "polkaking@presidents.net",
       "role": "tenant",
       "id": 24
     }
@@ -213,7 +213,7 @@
       "userId": 21,
       "address": "909 Kenner Blvd",
       "mgrId": 2,
-      "rentAmt": "700",
+      "rentAmt": "975",
       "occupied": false,
       "id": 12,
       "imageURL": "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -277,7 +277,7 @@
       "dateOpened": "2022-03-12",
       "dateClosed": "",
       "openStatus": "true",
-      "repairNotes": "",
+      "repairNotes": "Some testing repair notes being added.",
       "id": 6
     }
   ],
