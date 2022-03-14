@@ -9,7 +9,7 @@
     {
       "id": 2,
       "name": "Wynona Ryder",
-      "email": "ryder@xfinity.com",
+      "email": "wynona@gmail.com",
       "role": "manager"
     },
     {
@@ -63,7 +63,7 @@
     {
       "id": 12,
       "name": "Kristina Nixon",
-      "email": "knixon@salino.com",
+      "email": "ksnixon@salina.ch",
       "role": "tenant"
     },
     {
@@ -115,8 +115,8 @@
       "address": "1600 Pennsylvania Ave",
       "userId": 15,
       "mgrId": 2,
-      "rentAmt": 1400,
-      "occupied": "true",
+      "rentAmt": "4500",
+      "occupied": false,
       "imageURL": "https://images.pexels.com/photos/8755443/pexels-photo-8755443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
@@ -217,15 +217,6 @@
       "occupied": false,
       "id": 12,
       "imageURL": "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-    },
-    {
-      "userId": 23,
-      "address": "734 Marsden Palisades Dr",
-      "mgrId": 1,
-      "rentAmt": "3300",
-      "imageURL": "https://images.pexels.com/photos/7031407/pexels-photo-7031407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "id": 13,
-      "occupied": true
     }
   ],
   "maintrequests": [
@@ -236,7 +227,7 @@
       "propertyId": 1,
       "dateOpened": "2022-01-03",
       "dateClosed": "2022-01-07",
-      "openStatus": "false",
+      "openStatus": "true",
       "repairNotes": "Removed and replaced screw threads"
     },
     {
@@ -246,7 +237,7 @@
       "propertyId": 3,
       "dateOpened": "2022-03-07",
       "dateClosed": "2022-03-08",
-      "openStatus": "false",
+      "openStatus": "true",
       "repairNotes": "Advised tenant to ONLY use cold water in the kitchen"
     },
     {
@@ -256,7 +247,7 @@
       "propertyId": 2,
       "dateOpened": "2022-02-01",
       "dateClosed": "2022-02-03",
-      "openStatus": "false",
+      "openStatus": "true",
       "repairNotes": "Repaired hole with 2x3 foot sheetrock, mudded/taped/sanded/painted. Billed tenant 75 dollars."
     },
     {
@@ -266,7 +257,7 @@
       "propertyId": 1,
       "dateOpened": "2022-02-23",
       "dateClosed": "",
-      "openStatus": "true",
+      "openStatus": "false",
       "repairNotes": ""
     },
     {
@@ -276,18 +267,8 @@
       "propertyId": 8,
       "dateOpened": "2022-03-11",
       "dateClosed": "",
-      "openStatus": "true",
-      "repairNotes": "Custom-size glass on order; estimated delivery data is 5/15/22."
-    },
-    {
-      "title": "Testy Test Test",
-      "description": "This is a test.",
-      "propertyId": "1",
-      "dateOpened": "2022-03-12",
-      "dateClosed": "",
-      "openStatus": "true",
-      "repairNotes": "Some testing repair notes being added.",
-      "id": 6
+      "openStatus": "false",
+      "repairNotes": "Fixed"
     },
     {
       "title": "Sliding glass door won't lock",
@@ -295,8 +276,8 @@
       "propertyId": "1",
       "dateOpened": "2022-03-13",
       "dateClosed": "2022-03-12",
-      "openStatus": true,
-      "repairNotes": "checking the box this time",
+      "openStatus": false,
+      "repairNotes": "",
       "id": 7
     },
     {
@@ -306,8 +287,18 @@
       "dateOpened": "2022-03-13",
       "dateClosed": "2022-03-13",
       "openStatus": true,
-      "repairNotes": "",
+      "repairNotes": "Killed them all",
       "id": 8
+    },
+    {
+      "title": "Front door won't unlock",
+      "description": "Front door will not unlock. Button is broken",
+      "propertyId": "1",
+      "dateOpened": "2022-03-14",
+      "dateClosed": "",
+      "openStatus": "false",
+      "repairNotes": "",
+      "id": 10
     }
   ],
   "notes": [
