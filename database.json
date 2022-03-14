@@ -195,9 +195,9 @@
       "id": 10,
       "address": "3880 Bryan St",
       "userId": 9,
-      "mgrId": 4,
-      "rentAmt": 2100,
-      "occupied": "true",
+      "mgrId": 2,
+      "rentAmt": "2150",
+      "occupied": false,
       "imageURL": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
@@ -217,6 +217,15 @@
       "occupied": false,
       "id": 12,
       "imageURL": "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "userId": 23,
+      "address": "734 Marsden Palisades Dr",
+      "mgrId": 1,
+      "rentAmt": "3300",
+      "imageURL": "https://images.pexels.com/photos/7031407/pexels-photo-7031407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "id": 13,
+      "occupied": true
     }
   ],
   "maintrequests": [
@@ -265,10 +274,10 @@
       "title": "Cracked bathroom window",
       "description": "Bathroom window is cracked on the bottom half.",
       "propertyId": 8,
-      "dateOpened": "2022-03-07",
+      "dateOpened": "2022-03-11",
       "dateClosed": "",
       "openStatus": "true",
-      "repairNotes": "Custom-size window...glass on order"
+      "repairNotes": "Custom-size glass on order; estimated delivery data is 5/15/22."
     },
     {
       "title": "Testy Test Test",
@@ -279,6 +288,26 @@
       "openStatus": "true",
       "repairNotes": "Some testing repair notes being added.",
       "id": 6
+    },
+    {
+      "title": "Sliding glass door won't lock",
+      "description": "Locking mechanism on sliding glass door is stuck in the unlock position and will not slide up to lock the door.",
+      "propertyId": "1",
+      "dateOpened": "2022-03-13",
+      "dateClosed": "2022-03-12",
+      "openStatus": true,
+      "repairNotes": "checking the box this time",
+      "id": 7
+    },
+    {
+      "title": "Rodent problems",
+      "description": "Gophers have taken up their home all over the back yard",
+      "propertyId": "5",
+      "dateOpened": "2022-03-13",
+      "dateClosed": "2022-03-13",
+      "openStatus": true,
+      "repairNotes": "",
+      "id": 8
     }
   ],
   "notes": [
