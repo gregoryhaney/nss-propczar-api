@@ -304,10 +304,10 @@
   "notes": [
     {
       "id": 1,
-      "mgrId": 2,
+      "mgrId": 4,
       "propertyId": 1,
-      "note": "Noise complaint received by police",
-      "date": "2022-01-04"
+      "note": "Several noise complaints received by police.",
+      "date": "2202-03-13"
     },
     {
       "id": 2,
@@ -318,22 +318,22 @@
     },
     {
       "id": 3,
-      "mgrId": 2,
-      "propertyId": 4,
+      "mgrId": 4,
+      "propertyId": 7,
       "note": "Spider webs EVERYWHERE...unsanitary conditions",
       "date": "2021-12-14"
     },
     {
       "id": 4,
-      "mgrId": 4,
-      "propertyId": 2,
+      "mgrId": 1,
+      "propertyId": 12,
       "note": "Dog crap all over the yard",
       "date": "2022-03-05"
     },
     {
       "id": 5,
       "mgrId": 3,
-      "propertyId": 9,
+      "propertyId": 11,
       "note": "Front windows covered with aluminum foil; against lease",
       "date": "2022-03-10"
     },
@@ -345,18 +345,18 @@
       "date": "2021-10-16"
     },
     {
-      "id": 7,
-      "mgrId": 3,
-      "propertyId": 10,
-      "note": "Wind blew some shingles off",
-      "date": "2022-02-15"
-    },
-    {
       "id": 9,
       "mgrId": 4,
-      "propertyId": 2,
-      "note": "Three dead cats on the south lawn",
+      "propertyId": 5,
+      "note": "Four dead cats on south lawn.",
       "date": "2022-01-19"
+    },
+    {
+      "mgrId": "4",
+      "propertyId": "6",
+      "date": "2022-03-14",
+      "note": "Loud noise complaints from neighbors across the street for last night (3/13/22) at 2245hrs.",
+      "id": 10
     }
   ]
 }
