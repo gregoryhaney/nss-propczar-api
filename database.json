@@ -113,9 +113,9 @@
     {
       "id": 1,
       "address": "1600 Pennsylvania Ave",
-      "userId": 15,
-      "mgrId": 2,
-      "rentAmt": "4500",
+      "userId": 21,
+      "mgrId": 3,
+      "rentAmt": "4550",
       "occupied": false,
       "imageURL": "https://images.pexels.com/photos/8755443/pexels-photo-8755443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
@@ -194,7 +194,7 @@
     {
       "id": 10,
       "address": "3880 Bryan St",
-      "userId": 9,
+      "userId": 0,
       "mgrId": 2,
       "rentAmt": "2150",
       "occupied": false,
@@ -210,11 +210,11 @@
       "imageURL": "https://images.pexels.com/photos/4492596/pexels-photo-4492596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
-      "userId": 21,
+      "userId": 22,
       "address": "909 Kenner Blvd",
       "mgrId": 2,
       "rentAmt": "975",
-      "occupied": false,
+      "occupied": true,
       "id": 12,
       "imageURL": "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
@@ -296,17 +296,27 @@
       "propertyId": "1",
       "dateOpened": "2022-03-14",
       "dateClosed": "",
-      "openStatus": "false",
-      "repairNotes": "",
+      "openStatus": true,
+      "repairNotes": "Looked at the lock mechanism. It has/had plastic internal parts that have dry rotted. New lockset on order. Estimated delivery 3/17/22. UPDATE: lockset arrived this morning. Going to property install at noon today. ",
       "id": 10
+    },
+    {
+      "title": "Water pressure in shower is too little",
+      "description": "Shower has very low water pressure",
+      "propertyId": "6",
+      "dateOpened": "2022-03-16",
+      "dateClosed": "",
+      "openStatus": "false",
+      "repairNotes": "Observed low pressure. It is about half of what it should be.",
+      "id": 11
     }
   ],
   "notes": [
     {
       "id": 1,
-      "mgrId": 4,
+      "mgrId": 3,
       "propertyId": 1,
-      "note": "Several noise complaints received by police.",
+      "note": "Several noise complaints received by police.  Police reports obtained and added to tenant's records.",
       "date": "2202-03-13"
     },
     {
@@ -352,11 +362,25 @@
       "date": "2022-01-19"
     },
     {
-      "mgrId": "4",
-      "propertyId": "6",
+      "mgrId": 4,
+      "propertyId": 6,
       "date": "2022-03-14",
       "note": "Loud noise complaints from neighbors across the street for last night (3/13/22) at 2245hrs.",
       "id": 10
+    },
+    {
+      "mgrId": 2,
+      "propertyId": 4,
+      "date": "2022-03-15",
+      "note": "Tenant punched a hole in the front door. Once he puts in the maintenance request and pays for the damage, recommend eviction proceedings. This is the 4th or 5th 'temper tantrum' from this clown.",
+      "id": 11
+    },
+    {
+      "mgrId": 1,
+      "propertyId": 3,
+      "date": "2022-03-14",
+      "note": "testtesttesttesttesttesttest",
+      "id": 12
     }
   ]
 }
