@@ -1,6 +1,12 @@
 {
   "users": [
     {
+      "id": 0,
+      "name": "No Tenant",
+      "email": "none",
+      "role": "tenant"
+    },
+    {
       "id": 1,
       "name": "Jackson Petalls",
       "email": "jp@msn.com",
@@ -85,12 +91,6 @@
       "role": "tenant"
     },
     {
-      "id": 18,
-      "name": "DeleteMe",
-      "email": "ce@y.mil",
-      "role": "delete"
-    },
-    {
       "name": "Adam Adamsome",
       "email": "aa@a.co",
       "role": "Tenant",
@@ -116,7 +116,7 @@
       "userId": 21,
       "mgrId": 3,
       "rentAmt": "4550",
-      "occupied": false,
+      "occupied": true,
       "imageURL": "https://images.pexels.com/photos/8755443/pexels-photo-8755443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
@@ -169,8 +169,8 @@
       "address": "8731 Monica Ave",
       "userId": 8,
       "mgrId": 4,
-      "rentAmt": 1575,
-      "occupied": "true",
+      "rentAmt": "1580",
+      "occupied": true,
       "imageURL": "https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
@@ -195,22 +195,13 @@
       "id": 10,
       "address": "3880 Bryan St",
       "userId": 0,
-      "mgrId": 2,
+      "mgrId": 4,
       "rentAmt": "2150",
       "occupied": false,
       "imageURL": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
-      "userId": 18,
-      "address": "45 Kent St",
-      "mgrId": 1,
-      "rentAmt": "450",
-      "occupied": true,
-      "id": 11,
-      "imageURL": "https://images.pexels.com/photos/4492596/pexels-photo-4492596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-    },
-    {
-      "userId": 22,
+      "userId": 24,
       "address": "909 Kenner Blvd",
       "mgrId": 2,
       "rentAmt": "975",
@@ -341,13 +332,6 @@
       "date": "2022-03-05"
     },
     {
-      "id": 5,
-      "mgrId": 3,
-      "propertyId": 11,
-      "note": "Front windows covered with aluminum foil; against lease",
-      "date": "2022-03-10"
-    },
-    {
       "id": 6,
       "mgrId": 4,
       "propertyId": 8,
@@ -379,8 +363,15 @@
       "mgrId": 1,
       "propertyId": 3,
       "date": "2022-03-14",
-      "note": "testtesttesttesttesttesttest",
+      "note": "Tenant still has Christmas lights up, which is against her lease",
       "id": 12
+    },
+    {
+      "mgrId": 3,
+      "propertyId": 7,
+      "date": "2022-03-16",
+      "note": "Several small crop-circle looking detents in the front yard grass; each appears to be burnt, about 18 inches square, and satanic looking.",
+      "id": 13
     }
   ]
 }
