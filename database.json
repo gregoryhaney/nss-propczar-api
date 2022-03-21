@@ -75,7 +75,7 @@
     {
       "id": 13,
       "name": "Juan Silva",
-      "email": "jsalva45@gmail.com",
+      "email": "js@gmail.com",
       "role": "tenant"
     },
     {
@@ -93,7 +93,7 @@
     {
       "name": "Adam Adamsome",
       "email": "aa@a.co",
-      "role": "Tenant",
+      "role": "tenant",
       "id": 21
     },
     {
@@ -107,6 +107,12 @@
       "email": "polkaking@presidents.net",
       "role": "tenant",
       "id": 24
+    },
+    {
+      "name": "Darth Vader",
+      "email": "dv@deathstar.net",
+      "role": "Owner",
+      "id": 25
     }
   ],
   "properties": [
@@ -218,7 +224,7 @@
       "propertyId": 1,
       "dateOpened": "2022-01-03",
       "dateClosed": "2022-01-07",
-      "openStatus": "true",
+      "openStatus": true,
       "repairNotes": "Removed and replaced screw threads"
     },
     {
@@ -228,7 +234,7 @@
       "propertyId": 3,
       "dateOpened": "2022-03-07",
       "dateClosed": "2022-03-08",
-      "openStatus": "true",
+      "openStatus": true,
       "repairNotes": "Advised tenant to ONLY use cold water in the kitchen"
     },
     {
@@ -259,14 +265,14 @@
       "dateOpened": "2022-03-11",
       "dateClosed": "",
       "openStatus": "false",
-      "repairNotes": "Fixed"
+      "repairNotes": ""
     },
     {
       "title": "Sliding glass door won't lock",
       "description": "Locking mechanism on sliding glass door is stuck in the unlock position and will not slide up to lock the door.",
       "propertyId": "1",
       "dateOpened": "2022-03-13",
-      "dateClosed": "2022-03-12",
+      "dateClosed": "",
       "openStatus": false,
       "repairNotes": "",
       "id": 7
@@ -286,7 +292,7 @@
       "description": "Front door will not unlock. Button is broken",
       "propertyId": "1",
       "dateOpened": "2022-03-14",
-      "dateClosed": "",
+      "dateClosed": "2022-03-16",
       "openStatus": true,
       "repairNotes": "Looked at the lock mechanism. It has/had plastic internal parts that have dry rotted. New lockset on order. Estimated delivery 3/17/22. UPDATE: lockset arrived this morning. Going to property install at noon today. ",
       "id": 10
@@ -300,6 +306,16 @@
       "openStatus": "false",
       "repairNotes": "Observed low pressure. It is about half of what it should be.",
       "id": 11
+    },
+    {
+      "title": "Carpet stains",
+      "description": "Carpet stains in hallway and stairs looks like blood",
+      "propertyId": "3",
+      "dateOpened": "2022-03-21",
+      "dateClosed": "2022-03-21",
+      "openStatus": true,
+      "repairNotes": "Steam cleaned carpet",
+      "id": 12
     }
   ],
   "notes": [
@@ -307,7 +323,7 @@
       "id": 1,
       "mgrId": 3,
       "propertyId": 1,
-      "note": "Several noise complaints received by police.  Police reports obtained and added to tenant's records.",
+      "note": "Several noise complaints received by police.  Police reports obtained and added to tenant's records",
       "date": "2202-03-13"
     },
     {
@@ -342,21 +358,21 @@
       "id": 9,
       "mgrId": 4,
       "propertyId": 5,
-      "note": "Four dead cats on south lawn.",
+      "note": "Four dead cats on south lawn",
       "date": "2022-01-19"
     },
     {
       "mgrId": 4,
       "propertyId": 6,
       "date": "2022-03-14",
-      "note": "Loud noise complaints from neighbors across the street for last night (3/13/22) at 2245hrs.",
+      "note": "Loud noise complaints from neighbors across the street for last night (3/13/22) at 2245hrs",
       "id": 10
     },
     {
       "mgrId": 2,
       "propertyId": 4,
       "date": "2022-03-15",
-      "note": "Tenant punched a hole in the front door. Once he puts in the maintenance request and pays for the damage, recommend eviction proceedings. This is the 4th or 5th 'temper tantrum' from this clown.",
+      "note": "Tenant punched a hole in the front door. Once he puts in the maintenance request and pays for the damage, recommend eviction proceedings. This is the 4th or 5th 'temper tantrum' from this clown",
       "id": 11
     },
     {
@@ -370,8 +386,15 @@
       "mgrId": 3,
       "propertyId": 7,
       "date": "2022-03-16",
-      "note": "Several small crop-circle looking detents in the front yard grass; each appears to be burnt, about 18 inches square, and satanic looking.",
+      "note": "Several small crop-circle looking detents in the front yard grass; each appears to be burnt, about 18 inches square, and satanic looking",
       "id": 13
+    },
+    {
+      "mgrId": 4,
+      "propertyId": 7,
+      "date": "2022-03-18",
+      "note": "Police called...they were called to the property by neighbors complaining that it sounded like chicken and pigs were being murdered in the backyard shed. Tenants were cooperative with police; police found no evidence of animals, dead or otherwise",
+      "id": 14
     }
   ]
 }
