@@ -38,13 +38,13 @@
     },
     {
       "id": 7,
-      "name": "Mallory Stark",
-      "email": "mallory.stark@west.com",
+      "name": "Sam Francisco",
+      "email": "sf@west.com",
       "role": "tenant"
     },
     {
       "id": 8,
-      "name": "Dejohn Kulhman",
+      "name": "Dejohn Berryman",
       "email": "lavaman@gmail.com",
       "role": "tenant"
     },
@@ -91,20 +91,20 @@
       "role": "tenant"
     },
     {
-      "name": "Adam Adamsome",
-      "email": "aa@a.co",
+      "name": "Willie Makit",
+      "email": "wm@a.co",
       "role": "tenant",
       "id": 21
     },
     {
-      "name": "William Howard Taft",
-      "email": "wht@presidents.net",
+      "name": "Stewart Garcia",
+      "email": "bagotoxic@shortga.net",
       "role": "tenant",
       "id": 23
     },
     {
-      "name": "James K. Polk",
-      "email": "polkaking@presidents.net",
+      "name": "James Richmond",
+      "email": "polkaking@george.co",
       "role": "tenant",
       "id": 24
     },
@@ -122,7 +122,7 @@
       "userId": 21,
       "mgrId": 3,
       "rentAmt": "4550",
-      "occupied": true,
+      "occupied": "true",
       "imageURL": "https://images.pexels.com/photos/8755443/pexels-photo-8755443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
@@ -157,8 +157,8 @@
       "address": "1162 Virgie Loaf Ct",
       "userId": 10,
       "mgrId": 4,
-      "rentAmt": 1850,
-      "occupied": "true",
+      "rentAmt": "3850",
+      "occupied": "false",
       "imageURL": "https://images.pexels.com/photos/8443480/pexels-photo-8443480.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
@@ -176,7 +176,7 @@
       "userId": 8,
       "mgrId": 4,
       "rentAmt": "1580",
-      "occupied": true,
+      "occupied": "true",
       "imageURL": "https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
@@ -202,16 +202,16 @@
       "address": "3880 Bryan St",
       "userId": 0,
       "mgrId": 4,
-      "rentAmt": "2150",
-      "occupied": false,
+      "rentAmt": "2175",
+      "occupied": "false",
       "imageURL": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "userId": 24,
       "address": "909 Kenner Blvd",
       "mgrId": 2,
-      "rentAmt": "975",
-      "occupied": true,
+      "rentAmt": "2995",
+      "occupied": "true",
       "id": 12,
       "imageURL": "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
@@ -313,7 +313,7 @@
       "propertyId": "3",
       "dateOpened": "2022-03-21",
       "dateClosed": "2022-03-21",
-      "openStatus": true,
+      "openStatus": "true",
       "repairNotes": "Steam cleaned carpet",
       "id": 12
     }
@@ -324,7 +324,7 @@
       "mgrId": 3,
       "propertyId": 1,
       "note": "Several noise complaints received by police.  Police reports obtained and added to tenant's records",
-      "date": "2202-03-13"
+      "date": "2202-03-23"
     },
     {
       "id": 2,
@@ -379,7 +379,7 @@
       "mgrId": 1,
       "propertyId": 3,
       "date": "2022-03-14",
-      "note": "Tenant still has Christmas lights up, which is against her lease",
+      "note": "Tenant still has Christmas lights up: lease violation",
       "id": 12
     },
     {
